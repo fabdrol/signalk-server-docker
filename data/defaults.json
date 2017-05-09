@@ -1,0 +1,35 @@
+{
+  "vessel": {
+    "name": "Signal K",
+    "uuid": "urn:mrn:signalk:uuid:09968c24-9511-4c8c-a900-2a04bca5ea44"
+  },
+
+  "pipedProviders": [
+    {
+      "id": "N2K-CAN",
+      "pipeElements": [
+        {
+          "type": "providers/execute",
+          "options": {
+            "command": "candump can2 | candump2analyzer | analyzer -json"
+          }
+        }, 
+        {
+          "type": "providers/liner"
+        }, 
+        {
+          "type": "providers/from_json"
+        }, 
+        {
+          "type": "providers/n2k-signalk"
+        }
+      ]
+    }
+  ],
+
+  "interfaces": {
+    "bower": false,
+    "rest": true,
+    "ws": true
+  }
+}
