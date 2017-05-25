@@ -1,12 +1,12 @@
 {
   "vessel": {
     "name": "Signal K",
-    "uuid": "urn:mrn:signalk:uuid:09968c24-9511-4c8c-a900-2a04bca5ea44"
+    "uuid": "urn:mrn:signalk:uuid:238b81c9-e0b2-4d62-8057-f3953f7157b2"
   },
 
   "pipedProviders": [
     {
-      "id": "N2K-CAN",
+      "id": "can2",
       "pipeElements": [
         {
           "type": "providers/execute",

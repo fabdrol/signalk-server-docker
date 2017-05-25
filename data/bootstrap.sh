@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# @package    Dockerrized version of Signal K server
+# @package    Dockerized version of Signal K server
 # @copyright  2017 (c) Fabian Tollenaar & Signal K, all rights reserved. Distributed under the terms of MIT license
 # @author     Fabian Tollenaar <fabian@signalk.org>
 
